@@ -1,6 +1,6 @@
 # ripple-model
 
-![output](./imgs/ripples.png)
+![output](./ripples.png)
 
 A simple model for the formation dynamics of ripples by wind-blown sand, based
 on the model by Nishimori and Ouchi (1992). 
