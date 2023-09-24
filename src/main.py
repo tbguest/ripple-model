@@ -14,7 +14,7 @@ import os
 from constants import NSTEPS, WRITE_FRAMES
 from initialize import initialize
 from processes import saltate, diffuse
-from output import to_image, show_image
+from output import to_image, show_image, write_gif
 from pathlib import Path
 
 def main():
@@ -41,3 +41,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    if WRITE_FRAMES:
+        write_gif()
