@@ -1,0 +1,9 @@
+LATTICE_X = 1  # lattice dimensions
+LATTICE_Y = 1000  # lattice dimensions
+SAR = 1 / 3  # slab aspect ratio (y/x)
+MEAN_SLAB_HEIGHT = 10  # mean number of slabs/lattice point
+P_SAND = 0.6  # probability of slab deposition atop another sand slab
+P_NOSAND = 0.4  # probability of slab deposition on bare substrate
+L = 5  # slab saltation length
+SHADOW_ANGLE = 15  # [deg] angle defining the shadow zone
+TIMESTEPS = 150
