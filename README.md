@@ -1,4 +1,4 @@
-## Ripple Model
+## Ripples
 
 ![output](./ripples.png)
 
@@ -8,7 +8,7 @@ The model incorporates the elementary sand transport processes of grain saltatio
 
 In Python with Pillow and Matplotlib.
 
-## dune-model
+## Dunes
 
 ![output](./dunes1d.png)
 
