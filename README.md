@@ -1,6 +1,6 @@
 ## Ripples
 
-![output](./ripples.png)
+![output](./assets/ripples.png)
 
 A simple coupled map lattice (CML) model for the formation dynamics of ripples by wind-blown sand, based on the model by Nishimori and Ouchi (1992).
 
@@ -10,7 +10,7 @@ In Python with Pillow and Matplotlib.
 
 ## Dunes
 
-![output](./dunes1d.png)
+![output](./assets/dunes1d.png)
 
 A cellular automaton model simulating the formation and evolution of dunes by wind-blown sand, based on the model by Werner (1995).
 
