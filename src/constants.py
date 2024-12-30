@@ -3,7 +3,7 @@ NX = 100
 NY = 100
 
 # Number of time steps
-NSTEPS = 100
+NSTEPS = 300
 
 # Amplitude of the random initial bed state (a dimensionless scaling parameter)
 EPS = 0.1

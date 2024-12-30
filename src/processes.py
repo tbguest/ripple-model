@@ -1,6 +1,7 @@
 import numpy as np
 from constants import NX, NY, Q, L0, B, D
 
+
 # saltation step
 def saltate(h):
     # Precompute the saltation distances at each lattice point for this timestep
@@ -20,6 +21,7 @@ def saltate(h):
                 wrap = j + jump - NX
                 h[i, wrap] = h[i, wrap] + Q
     return h
+
 
 # Diffusion step
 def diffuse(h):
@@ -124,8 +126,8 @@ def diffuse(h):
                 + h[i + 1, j]
                 + h[i - 1, j]
                 + h[i + 1, j + 1] / 2
-                + h[i + 1, j]
-                + h[i + 1, j - 1] / 2
+                + h[i, j + 1]
+                + h[i - 1, j + 1] / 2
             )
 
     h = h + D * (NNsum / 6 - h)
